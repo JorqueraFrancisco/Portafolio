@@ -13,14 +13,12 @@
     position: absolute;
     z-index: 1;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.tooltip .tiptext::after {
-    border-width: 5px;
-    border-style: solid;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .tooltip:hover .tiptext {
+    opacity: 1;
     visibility: visible;
 }
 

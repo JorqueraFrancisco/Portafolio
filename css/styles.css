@@ -86,6 +86,7 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
 .menu a:hover {
     Color: #ff0000;
 }
@@ -139,13 +140,13 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     color: #fff;
 }
 
 
-.section {
+.section-skills {
     padding: 30px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.952);
     background: #5f1a1a;
@@ -153,6 +154,24 @@ h1 {
     display: flex;
     flex-flow: column wrap;
 }
+
+.section-experience {
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.952);
+    background: #19274e;
+    /* flex */
+    display: flex;
+    flex-flow: column wrap;
+}
+.section-portfolio {
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.952);
+    background: #19274e;
+    /* flex */
+    display: flex;
+    flex-flow: column wrap;
+}
+
 
 hr {
     margin: 20px 30%;
@@ -251,4 +270,3 @@ hr {
     }
 
 }
-
