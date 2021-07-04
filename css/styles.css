@@ -2,12 +2,12 @@
 .card {
     width: 300px;
     position: relative;
-    background-color: #ff976e;
+    margin: 10px 10px;
 }
+
 
 .image {
     opacity: 1;
-
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -148,7 +148,7 @@ h1 {
 
 .section-skills {
     padding: 30px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.952);
+
     background: #5f1a1a;
     /* flex */
     display: flex;
@@ -157,12 +157,13 @@ h1 {
 
 .section-experience {
     padding: 30px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.952);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.952); */
     background: #19274e;
     /* flex */
     display: flex;
     flex-flow: column wrap;
 }
+
 .section-portfolio {
     padding: 30px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.952);
@@ -172,10 +173,21 @@ h1 {
     flex-flow: column wrap;
 }
 
+.list-cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
 
 hr {
+
+    height: .1rem;
+    max-width: 100%;
+    border: 0;
+    background-image: -webkit-linear-gradient(left,transparent,#ffffff,transparent);
+    background-image: -o-linear-gradient(left,transparent,#ffffff,transparent);
+    background-image: linear-gradient(to right,transparent,#ffffff,transparent);
     margin: 20px 30%;
-    color: rgb(241, 8, 8);
 }
 
 .skills {
